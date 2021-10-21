@@ -118,11 +118,8 @@ def last_cleansing(raw_data):
     :return: DataFrame
     """
     u_raw_data = unify_actor_column(raw_data)
-    # print(u_raw_data)
     u_raw_data = u_raw_data.drop_duplicates()
-    # print(u_raw_data)
     u_raw_data = u_raw_data.groupby(["country", "event_month", "actor"], as_index=False).agg({'regions': lambda x: list(x)})
-    u_raw_data.drop(u_raw_data.columns[0], axis=1, inplace=True)
 
     return u_raw_data
 

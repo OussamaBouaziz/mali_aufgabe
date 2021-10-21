@@ -1,4 +1,4 @@
-event_month,actor,regions
-2006-05,ADC: Democratic Alliance of 23rd May for Change,"['Kidal', 'Gao']"
-2006-05,MPLA: Popular Movement for the Liberation of Azawad,['Kidal']
-2006-05,Military Forces of Mali (2002-2012),"['Kidal', 'Gao']"
+country,event_month,actor,regions
+Mali,2006-05,ADC: Democratic Alliance of 23rd May for Change,"['Kidal', 'Gao']"
+Mali,2006-05,MPLA: Popular Movement for the Liberation of Azawad,['Kidal']
+Mali,2006-05,Military Forces of Mali (2002-2012),"['Kidal', 'Gao']"
